@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ReactDom from "react-dom";
+//sass
+require("../sass/styles.scss")
 
 
 class App extends Component{
