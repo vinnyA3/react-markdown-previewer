@@ -1,0 +1,24 @@
+$sm-break : 700px;
+$md-break: 1000px;
+$lg-break: 1300px;
+
+@media screen and (min-width: $sm-break){
+  .box{
+    width: 50%;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: $md-break){
+  .box{
+    height: 650px
+  }
+}
+
+@media screen and (min-width: $lg-break){
+  .container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
