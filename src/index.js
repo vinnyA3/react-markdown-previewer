@@ -18,7 +18,8 @@ class App extends Component{
   }
 
   inputChange(markdown){
-      this.setState({ markdown });
+      let markedText = Marked(markdown);
+      this.setState({ markdown:markedText });
   }
 
   render(){
