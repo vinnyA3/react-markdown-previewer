@@ -1,4 +1,7 @@
-
+body{
+  font-family: helvetica, arial, sans-serif;
+  color: #2b2b2b;
+}
 .container{
   display:flex;
   flex-wrap: wrap;
@@ -10,6 +13,7 @@
   width: 100%;
   height: 300px;
   float:left;
+  margin-bottom: 130px;
 }
 .input-text{
   height: 100%;
@@ -20,7 +24,7 @@
   height: 100%;
   padding: 5px;
   width: 95%;
-  border: 1px solid black;
+  border: 1px solid #2b2b2b;
 }
 
 //media queries
